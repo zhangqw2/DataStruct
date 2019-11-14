@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64ef0169-ef44-4476-bae5-14fc42a79dcf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/note/一、数据结构的概述.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/note/二、数组.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -114,7 +117,7 @@
       <updated>1573227947809</updated>
       <workItem from="1573227951004" duration="1871000" />
       <workItem from="1573696520062" duration="4813000" />
-      <workItem from="1573714755743" duration="1755000" />
+      <workItem from="1573714755743" duration="4248000" />
     </task>
     <servers />
   </component>
