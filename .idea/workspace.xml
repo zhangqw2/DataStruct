@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64ef0169-ef44-4476-bae5-14fc42a79dcf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/exception/InvalidNodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/iterator/LinkedListIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/node/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/node/LinkedListDLNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/node/DLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/node/DLNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/note/三、线性表及抽象数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/三、线性表及抽象数据类型.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +51,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,7 +109,8 @@
       <workItem from="1573814588214" duration="176000" />
       <workItem from="1574054141833" duration="1995000" />
       <workItem from="1574056228288" duration="417000" />
-      <workItem from="1574056674849" duration="26791000" />
+      <workItem from="1574056674849" duration="27505000" />
+      <workItem from="1574309200288" duration="4867000" />
     </task>
     <servers />
   </component>

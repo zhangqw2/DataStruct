@@ -23,6 +23,14 @@ public class DLNode implements Node {
         return pre;
     }
 
+    public void setPre(DLNode pre) {
+        this.pre = pre;
+    }
+
+    public void setNext(DLNode next) {
+        this.next = next;
+    }
+
     @Override
     public Object getData() {
         return element;
