@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64ef0169-ef44-4476-bae5-14fc42a79dcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/exception/InvalidNodeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/iterator/LinkedListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/node/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/node/LinkedListDLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/Queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/Queue/QueueArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/Queue/QueueSLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/exception/QueueEmptyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/exception/StackEmptyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/stack/StackArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/stack/StackSLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/tree/BinTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/note/栈与队列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/note/递归.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/node/DLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/node/DLNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/note/三、线性表及抽象数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/三、线性表及抽象数据类型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/note/一、数据结构的概述.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/数据结构的概述.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/note/三、线性表及抽象数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/线性表及抽象数据类型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/note/二、数据结构与算法基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/数据结构与算法基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/note/四、栈与队列.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/树.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortTest.merge">
+  <component name="RunManager" selected="JUnit.StackTest.baseConversionTest">
     <configuration name="SortTest.merge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStruct" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,8 +96,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackTest.baseConversionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStruct" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackTest" />
+      <option name="METHOD_NAME" value="baseConversionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackTest.baseConversionTest" />
         <item itemvalue="JUnit.SortTest.merge" />
         <item itemvalue="JUnit.SortTest.selectSort" />
       </list>
@@ -110,7 +131,7 @@
       <workItem from="1574054141833" duration="1995000" />
       <workItem from="1574056228288" duration="417000" />
       <workItem from="1574056674849" duration="27505000" />
-      <workItem from="1574309200288" duration="4867000" />
+      <workItem from="1574309200288" duration="24936000" />
     </task>
     <servers />
   </component>
@@ -129,5 +150,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/SpringBoot" />
+    </ignored-roots>
   </component>
 </project>
