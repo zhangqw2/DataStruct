@@ -1,12 +1,5 @@
 package com.base.array;
 
-import org.springframework.boot.autoconfigure.web.ResourceProperties;
-import org.springframework.cglib.core.DefaultGeneratorStrategy;
-
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
 
 public class ListArray implements List {
     /**
@@ -30,7 +23,7 @@ public class ListArray implements List {
      * @return
      */
     @Override
-    public int size() {
+    public int getSize() {
         return size;
     }
 
@@ -58,20 +51,6 @@ public class ListArray implements List {
         return false;
     }
 
-    @Override
-    public Iterator iterator() {
-        return null;
-    }
-
-    @Override
-    public Object[] toArray() {
-        return new Object[0];
-    }
-
-    @Override
-    public boolean add(Object o) {
-        return false;
-    }
 
     /**
      * 删除线性表中第一个与e相同的元素
@@ -79,13 +58,13 @@ public class ListArray implements List {
      * @return
      */
     @Override
-    public boolean remove(Object o) {
+    public Object remove(Object o) {
         int i = indexOf(o);
         if(i<0){
             return false;
         }
         remove(i);
-        return true;
+        return o;
     }
 
     /**
@@ -95,6 +74,7 @@ public class ListArray implements List {
      * @return
      * @throws IndexOutOfBoundsException
      */
+    @Override
     public Object replace(int i,Object e)throws IndexOutOfBoundsException{
         if(i<0|i>size){
             throw new IndexOutOfBoundsException();
@@ -105,21 +85,6 @@ public class ListArray implements List {
     }
 
     @Override
-    public boolean addAll(Collection c) {
-        return false;
-    }
-
-    @Override
-    public boolean addAll(int index, Collection c) {
-        return false;
-    }
-
-    @Override
-    public void clear() {
-
-    }
-
-    @Override
     public Object get(int index) throws IndexOutOfBoundsException{
         if(index<0|index>=size){
             throw new IndexOutOfBoundsException("下标越界");
@@ -127,13 +92,9 @@ public class ListArray implements List {
         return elements[index];
     }
 
-    @Override
-    public Object set(int index, Object element) {
-        return null;
-    }
 
     @Override
-    public void add(int index, Object element) throws IndexOutOfBoundsException{
+    public void insert(int index, Object element) throws IndexOutOfBoundsException{
         if(index<0|index>size){
             throw new IndexOutOfBoundsException("下标越界");
         }
@@ -162,21 +123,23 @@ public class ListArray implements List {
      * @param e
      * @return
      */
-    public boolean addBefore(Object obj,Object e){
+    @Override
+    public boolean insertBefore(Object obj,Object e){
         int i = indexOf(obj);
         if(i<0){
             return false;
         }
-        add(i,e);
+        insert(i,e);
         return true;
     }
 
+    @Override
     public boolean insertAfter(Object obj,Object e){
         int i = indexOf(obj);
         if(i<0){
             return false;
         }
-        add(i+1,e);
+        insert(i+1,e);
         return true;
     }
 
@@ -186,7 +149,7 @@ public class ListArray implements List {
      * @return
      * @throws IndexOutOfBoundsException
      */
-    @Override
+
     public Object remove(int index) throws IndexOutOfBoundsException{
         if(index<0|index>=size){
             throw new IndexOutOfBoundsException("下标越界");
@@ -214,43 +177,8 @@ public class ListArray implements List {
         return 0;
     }
 
-    @Override
-    public int lastIndexOf(Object o) {
-        return 0;
-    }
 
-    @Override
-    public ListIterator listIterator() {
-        return null;
-    }
 
-    @Override
-    public ListIterator listIterator(int index) {
-        return null;
-    }
 
-    @Override
-    public List subList(int fromIndex, int toIndex) {
-        return null;
-    }
 
-    @Override
-    public boolean retainAll(Collection c) {
-        return false;
-    }
-
-    @Override
-    public boolean removeAll(Collection c) {
-        return false;
-    }
-
-    @Override
-    public boolean containsAll(Collection c) {
-        return false;
-    }
-
-    @Override
-    public Object[] toArray(Object[] a) {
-        return new Object[0];
-    }
 }
