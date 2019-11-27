@@ -1,9 +1,10 @@
 package com.base.graph;
 
+import com.base.iterator.Iterator;
 import com.base.node.LinkedList;
 import com.base.node.LinkedListDLNode;
 import com.base.node.Node;
-import sun.awt.image.ImageWatched;
+
 
 public class Vertex {
     /**
@@ -148,5 +149,6 @@ public class Vertex {
         visited =false;
         application = null;
     }
+
 
 }

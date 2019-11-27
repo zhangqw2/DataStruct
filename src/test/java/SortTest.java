@@ -1,8 +1,11 @@
 
 
 import com.alibaba.fastjson.JSONObject;
+import com.base.node.Node;
+import com.base.tree.BinTreeNode;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.internal.matchers.CompareEqual;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -67,6 +70,32 @@ public class SortTest {
         }
         System.out.println(JSONObject.toJSONString(c));
     }
+
+    /**
+     *  二分查找
+     * @param s
+     * @param low
+     * @param high
+     * @param key
+     * @return
+     */
+    public int binSearch(int[] s,int low, int high,int key){
+        while(low<=high){
+            int mid = (low+high)/2;
+            if(s[mid]==key){
+                return mid;
+            }else if(s[mid]>key){
+                high = mid -1;
+            }else{
+                low = mid+1;
+            }
+        }
+        return -1;
+    }
+
+
+
+
 
 
 

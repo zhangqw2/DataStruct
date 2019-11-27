@@ -3,7 +3,7 @@ package com.base.graph;
 import com.base.exception.Unsupportedoperation;
 import com.base.iterator.Iterator;
 import com.base.node.Node;
-import com.sun.javafx.geom.Edge;
+import com.base.graph.Edge;
 
 
 public interface Graph {
