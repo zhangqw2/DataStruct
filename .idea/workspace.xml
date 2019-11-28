@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64ef0169-ef44-4476-bae5-14fc42a79dcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/graph/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/search/SearchTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/graph/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/graph/Vertex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/note/图.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/图.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,7 +120,7 @@
       <workItem from="1574054141833" duration="1995000" />
       <workItem from="1574056228288" duration="417000" />
       <workItem from="1574056674849" duration="27505000" />
-      <workItem from="1574309200288" duration="49376000" />
+      <workItem from="1574309200288" duration="56753000" />
     </task>
     <servers />
   </component>
