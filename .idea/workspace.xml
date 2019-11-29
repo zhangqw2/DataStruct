@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64ef0169-ef44-4476-bae5-14fc42a79dcf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/array/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/array/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IteratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/note/数据结构与算法基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/数据结构与算法基础.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/base/array" />
       <recent name="$PROJECT_DIR$/src/note" />
     </key>
   </component>
@@ -64,22 +69,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest.baseConversionTest">
-    <configuration name="SortTest.merge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IteratorTest.listTest">
+    <configuration name="IteratorTest.arrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStruct" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortTest" />
-      <option name="METHOD_NAME" value="merge" />
+      <option name="MAIN_CLASS_NAME" value="IteratorTest" />
+      <option name="METHOD_NAME" value="arrayListTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.selectSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IteratorTest.listForDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStruct" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortTest" />
-      <option name="METHOD_NAME" value="selectSort" />
+      <option name="MAIN_CLASS_NAME" value="IteratorTest" />
+      <option name="METHOD_NAME" value="listForDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IteratorTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStruct" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IteratorTest" />
+      <option name="METHOD_NAME" value="listTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IteratorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStruct" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IteratorTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,9 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IteratorTest.listTest" />
+        <item itemvalue="JUnit.IteratorTest.listForDelete" />
+        <item itemvalue="JUnit.IteratorTest.arrayListTest" />
+        <item itemvalue="JUnit.IteratorTest.test" />
         <item itemvalue="JUnit.StackTest.baseConversionTest" />
-        <item itemvalue="JUnit.SortTest.merge" />
-        <item itemvalue="JUnit.SortTest.selectSort" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +147,7 @@
       <workItem from="1574054141833" duration="1995000" />
       <workItem from="1574056228288" duration="417000" />
       <workItem from="1574056674849" duration="27505000" />
-      <workItem from="1574309200288" duration="56753000" />
+      <workItem from="1574309200288" duration="63109000" />
     </task>
     <servers />
   </component>

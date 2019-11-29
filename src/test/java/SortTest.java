@@ -1,17 +1,18 @@
 
 
 import com.alibaba.fastjson.JSONObject;
-import com.base.node.Node;
-import com.base.tree.BinTreeNode;
+import java.util.Collection;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.internal.matchers.CompareEqual;
+
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SortTest.class)
 public class SortTest {
+
+
     private int[] a = {8,1,3,4,6,2,9,0,7};
     private int[] b = {5,5,6,7,9,10};
     private int[] d = {0,2,4,6,7};
