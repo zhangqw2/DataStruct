@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64ef0169-ef44-4476-bae5-14fc42a79dcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/array/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/array/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IteratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/exception/UnderflowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/tree/AvlTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/tree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/note/散列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/note/树2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/note/数据结构与算法基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/数据结构与算法基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +53,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/base/array" />
       <recent name="$PROJECT_DIR$/src/note" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/base/tree" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/base/exception" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/base/array" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -147,7 +149,7 @@
       <workItem from="1574054141833" duration="1995000" />
       <workItem from="1574056228288" duration="417000" />
       <workItem from="1574056674849" duration="27505000" />
-      <workItem from="1574309200288" duration="63109000" />
+      <workItem from="1574309200288" duration="66756000" />
     </task>
     <servers />
   </component>
